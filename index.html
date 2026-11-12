@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MusicFlow Local: aplicativo desktop de uso pessoal para organizar músicas, criar vídeos e gerenciar uploads para canais do YouTube.">
+  <title>MusicFlow Local — Página inicial</title>
+  <style>
+    :root{color-scheme:dark;--bg:#090c18;--panel:#13192c;--stroke:#28324c;--txt:#eef2ff;--muted:#adb8d4;--a:#a887ff;--b:#4fc7ff}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 70% -20%,#34205c 0,transparent 48%),var(--bg);color:var(--txt);line-height:1.7}
+    .wrap{max-width:960px;margin:auto;padding:0 25px}header{border-bottom:1px solid var(--stroke)}nav{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding:20px 0}.brand{font-weight:800;letter-spacing:.3px;font-size:1.1rem;color:var(--txt);text-decoration:none}.brand span{color:var(--a)}.navlinks{display:flex;gap:20px;flex-wrap:wrap}.navlinks a,footer a{color:var(--muted);text-decoration:none}.navlinks a:hover,footer a:hover{color:white}
+    main{min-height:65vh}.hero{padding:95px 0 55px}h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.12;letter-spacing:-.05em;max-width:800px;margin:16px 0 22px}h1 em{font-style:normal;background:linear-gradient(95deg,var(--a),var(--b));background-clip:text;color:transparent}.lead{color:var(--muted);font-size:1.18rem;max-width:680px}.eyebrow{display:inline-block;color:#c6b6ff;background:#ab88ff19;border:1px solid #a887ff55;padding:5px 13px;border-radius:100px;font-size:.84rem;font-weight:600}h2{font-size:1.65rem;letter-spacing:-.02em;margin:0 0 24px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-bottom:70px}.card{border:1px solid var(--stroke);background:linear-gradient(145deg,#161b30,#101526);border-radius:16px;padding:26px}.card b{font-size:1.08rem}.card p{color:var(--muted);margin-bottom:0}.note{background:#121a2b;border-left:3px solid var(--a);border-radius:8px;padding:18px 22px;color:var(--muted);margin:0 0 70px}footer{border-top:1px solid var(--stroke);padding:26px 0;color:var(--muted);font-size:.88rem}.foot{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+    @media(max-width:680px){.grid{grid-template-columns:1fr}.hero{padding:60px 0 35px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><nav><a class="brand" href="index.html">♫ MusicFlow <span>Local</span></a><div class="navlinks"><a href="index.html" aria-current="page">Início</a><a href="privacidade.html">Privacidade</a><a href="termos.html">Termos</a></div></nav></div></header>
+<main class="wrap">
+  <section class="hero"><span class="eyebrow">Aplicativo local para criação e gestão de vídeos</span><h1>Produção musical e uploads com mais <em>organização.</em></h1><p class="lead">O MusicFlow Local é uma ferramenta executada no computador do usuário para organizar arquivos de música e imagens, produzir vídeos e gerenciar o envio de conteúdo para canais do YouTube autorizados pelo próprio usuário.</p></section>
+  <section aria-label="Funcionalidades"><h2>O que o MusicFlow faz?</h2><div class="grid">
+    <div class="card"><b>♫ Montagem de vídeos</b><p>Organiza arquivos locais de áudio e imagens para criar compilações em vídeo.</p></div>
+    <div class="card"><b>▣ Organização por canal</b><p>Mantém pastas e configurações independentes para os canais gerenciados.</p></div>
+    <div class="card"><b>↗ Integração com YouTube</b><p>Usa a API oficial do YouTube e autorização OAuth 2.0 para enviar vídeos em nome de canais autorizados.</p></div>
+  </div></section>
+  <aside class="note"><strong>Aplicativo de uso local.</strong> O MusicFlow não é um serviço de hospedagem de vídeos nem um site para acessar contas de terceiros. A autorização do Google é solicitada quando o usuário conecta voluntariamente um canal do YouTube.</aside>
+</main>
+<footer><div class="wrap foot"><span>© 2026 MusicFlow Local</span><div class="navlinks"><a href="privacidade.html">Política de Privacidade</a><a href="termos.html">Termos de Serviço</a></div></div></footer>
+</body>
+</html>
